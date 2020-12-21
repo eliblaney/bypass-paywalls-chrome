@@ -467,7 +467,9 @@ if (matchDomain('elmercurio.com')) {
     el.classList.remove('css-ir438k');
   }
   const button = document.getElementsByClassName('css-gy1lgd')[0];
-  button.remove();
+  if(button !== undefined) {
+    button.remove();
+  }
 } else if (matchDomain('delfi.ee')) {
   // Remove 'adblocker-detected' notification overlay
   document.body.classList.remove('adb-curtain');
