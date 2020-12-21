@@ -48,6 +48,7 @@
 [De Stentor](https://www.destentor.nl)\
 [De Tijd](https://www.tijd.be)\
 [De Volkskrant](https://www.volkskrant.nl)\
+[Daily Wire](https://www.dailywire.com)\
 [DELFI](https://www.delfi.ee)\
 [DeMorgen](https://www.demorgen.be)\
 [Denver Post](https://www.denverpost.com)\

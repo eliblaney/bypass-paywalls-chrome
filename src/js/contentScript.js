@@ -461,6 +461,13 @@ if (matchDomain('elmercurio.com')) {
 } else if (matchDomain('vanityfair.com')) {
   const paywall = document.querySelector('.paywall-bar');
   removeDOMElement(paywall);
+} else if (matchDomain('dailywire.com')) {
+  const el = document.getElementsByClassName('css-ir438k')[0];
+  if(el !== undefined) {
+    el.classList.remove('css-ir438k');
+  }
+  const button = document.getElementsByClassName('css-gy1lgd')[0];
+  button.remove();
 } else if (matchDomain('delfi.ee')) {
   // Remove 'adblocker-detected' notification overlay
   document.body.classList.remove('adb-curtain');
